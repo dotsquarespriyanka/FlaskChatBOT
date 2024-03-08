@@ -1,0 +1,112 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "how are you",
+          "is anyone there?",
+          "good day",
+          "hii",
+          "hello",
+          "hey",
+          "hi",
+          "Hi",
+          "Hii",
+          "Hello",
+          "Helo"
+  
+        ],
+        "responses": [
+          "Hello.How may i help you ?", "Hii. How may i help you ?", "Hey !. How may i help you ?"
+        ]
+      },
+  
+      {
+        "tag": "goodbye",
+        "patterns": ["see you later", "goodbye","bye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks","thanks a lot","this is helpful","thank you"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "technology",
+        "patterns": [
+          "in which technology your company work?",
+          "what kind of software solutions you provide?",
+          "in which technology you can help me?"
+        ],
+        "responses": [
+          "We are dealing with python , React, node , php, laravel, wordpress, machine learning, artificial intelligence ----please choose technology",
+          "CRM software, Shopify app decelopment --- please choose solutions "
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "do you take credit cards?",
+          "do you accept Mastercard?",
+          "can I pay with Paypal?",
+          "are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "name",
+        "patterns": [
+          "my name is ",
+          "name is",
+          "name"
+        ],
+        "responses": [
+          "Your Email-id, to share the details of conversation here and connect after this chat."
+        ]
+      },
+      {
+        "tag": "email",
+        "patterns": [
+          "my email is",
+          "email is",
+          "email"
+        ],
+        "responses": [
+          "Please share your contact number, in case we disconnect here"
+        ]
+      },
+      {
+        "tag": "number",
+        "patterns": [
+          "my mobile no is",
+          "my contact no is",
+          "number is",
+          "contact no is",
+          "number"
+        ],
+        "responses": [
+          "Tell me, in which technology i can help you?"
+        ]
+      },
+      {
+        "tag": "human or bot",
+        "patterns": [
+          "tell me you are a human or bot!",
+          "you are a human or bot",
+          "who are you?"
+        ],
+        "responses": [
+          "My name is SEO EXPERT.",
+          "i am a bot."
+        ]
+      }
+    ]
+  }
+  
